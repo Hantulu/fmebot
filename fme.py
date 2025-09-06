@@ -21,5 +21,6 @@ def main(message):
 
    
         bot.send_photo(message.chat.id, f"{meme['src']}", f"Вот мем на сегодня. <b>От Скотча - Я тебя очень сильно люблю</b>", parse_mode='html' )
-        time.sleep(43200)
+        time.sleep(60)
 bot.polling(none_stop=True)
+
